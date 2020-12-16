@@ -4,7 +4,7 @@
              x:Class="Pascu_Ioana_Lab10.ListEntryPage">
     
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add Shopping List" Clicked="OnShopListAddedClick" />
+        <ToolbarItem Text="Add Shopping List" Clicked="OnShopListAddedClicked" />
     </ContentPage.ToolbarItems>
     <ListView x:Name="listView" Margin="20" ItemSelected="OnListViewItemSelected">
         <ListView.ItemTemplate>
